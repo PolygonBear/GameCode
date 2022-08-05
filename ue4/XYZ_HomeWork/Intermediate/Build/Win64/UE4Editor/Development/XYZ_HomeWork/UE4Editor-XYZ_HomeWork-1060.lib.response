@@ -1,0 +1,14 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-XYZ_HomeWork-1060.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"D:\Work\polybear_Maks_DESKTOPVEV4770_5827\XYZHomeWork\ue4\XYZ_HomeWork\Intermediate\Build\Win64\XYZ_HomeWorkEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"D:\Work\polybear_Maks_DESKTOPVEV4770_5827\XYZHomeWork\ue4\XYZ_HomeWork\Intermediate\Build\Win64\UE4Editor\Development\XYZ_HomeWork\Module.XYZ_HomeWork.cpp.obj"
+"D:\Work\polybear_Maks_DESKTOPVEV4770_5827\XYZHomeWork\ue4\XYZ_HomeWork\Intermediate\Build\Win64\UE4Editor\Development\XYZ_HomeWork\Module.XYZ_HomeWork.gen.cpp.obj"
+"D:\Work\polybear_Maks_DESKTOPVEV4770_5827\XYZHomeWork\ue4\XYZ_HomeWork\Intermediate\Build\Win64\UE4Editor\Development\XYZ_HomeWork\Default.rc2.res"
+/OUT:"D:\Work\polybear_Maks_DESKTOPVEV4770_5827\XYZHomeWork\ue4\XYZ_HomeWork\Intermediate\Build\Win64\UE4Editor\Development\XYZ_HomeWork\UE4Editor-XYZ_HomeWork-1060.lib"
+/INCLUDE:IMPLEMENT_MODULE_XYZ_HomeWork

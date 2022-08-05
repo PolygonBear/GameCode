@@ -1,0 +1,2 @@
+// Compiler: 14.29.30145
+#include "D:/Work/polybear_Maks_DESKTOPVEV4770_5827/XYZHomeWork/ue4/XYZ_HomeWork/Intermediate/Build/Win64/XYZ_HomeWorkEditor/Development/Engine/SharedPCH.Engine.ShadowErrors.h"

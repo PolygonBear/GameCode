@@ -1,0 +1,5 @@
+D:\Work\polybear_Maks_DESKTOPVEV4770_5827\XYZHomeWork\ue4\XYZ_HomeWork\Intermediate\Build\Win64\UE4Editor\Development\XYZ_HomeWork\Definitions.XYZ_HomeWork.h
+D:\Work\polybear_Maks_DESKTOPVEV4770_5827\XYZHomeWork\ue4\XYZ_HomeWork\Source\XYZ_HomeWork\Components\CharacterComponents\AIPatrollingComponent.h
+D:\Work\polybear_Maks_DESKTOPVEV4770_5827\XYZHomeWork\ue4\XYZ_HomeWork\Intermediate\Build\Win64\UE4Editor\Inc\XYZ_HomeWork\AIPatrollingComponent.generated.h
+D:\Work\polybear_Maks_DESKTOPVEV4770_5827\XYZHomeWork\ue4\XYZ_HomeWork\Source\XYZ_HomeWork\Actors/Navigation/PatrollingPath.h
+D:\Work\polybear_Maks_DESKTOPVEV4770_5827\XYZHomeWork\ue4\XYZ_HomeWork\Intermediate\Build\Win64\UE4Editor\Inc\XYZ_HomeWork\PatrollingPath.generated.h

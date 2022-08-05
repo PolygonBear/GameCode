@@ -1,0 +1,423 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\XYZ_HomeWork.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{154CFD2A-C2E2-4797-BCFA-E83578FBFCF9}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\XYZ_HomeWork.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\XYZ_HomeWorkEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{D472F7C3-D400-4ACB-9710-01F115957E8E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\XYZ_HomeWork">
+      <UniqueIdentifier>{FA95FDE0-2705-4B1E-B93D-248CF91DF468}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\XYZ_HomeWork\ExplosionComponent.cpp">
+      <Filter>Source\XYZ_HomeWork</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\XYZ_HomeWork\ExplosionComponent.h">
+      <Filter>Source\XYZ_HomeWork</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\XYZ_HomeWork\XYZGameInstance.cpp">
+      <Filter>Source\XYZ_HomeWork</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\XYZ_HomeWork\XYZGameInstance.h">
+      <Filter>Source\XYZ_HomeWork</Filter>
+    </ClInclude>
+    <None Include="..\..\Source\XYZ_HomeWork\XYZ_HomeWork.Build.cs">
+      <Filter>Source\XYZ_HomeWork</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\XYZ_HomeWork\XYZ_HomeWork.cpp">
+      <Filter>Source\XYZ_HomeWork</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\XYZ_HomeWork\XYZ_HomeWork.h">
+      <Filter>Source\XYZ_HomeWork</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\XYZ_HomeWork\XYZ_HomeWorkGameModeBase.cpp">
+      <Filter>Source\XYZ_HomeWork</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\XYZ_HomeWork\XYZ_HomeWorkGameModeBase.h">
+      <Filter>Source\XYZ_HomeWork</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\XYZ_HomeWork\XYZ_HomeWork_Types.h">
+      <Filter>Source\XYZ_HomeWork</Filter>
+    </ClInclude>
+    <Filter Include="Source\XYZ_HomeWork\Actors">
+      <UniqueIdentifier>{8D6948D5-C688-4637-80A5-B3FE5177E192}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\XYZ_HomeWork\Actors\BasePlatform.cpp">
+      <Filter>Source\XYZ_HomeWork\Actors</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\XYZ_HomeWork\Actors\BasePlatform.h">
+      <Filter>Source\XYZ_HomeWork\Actors</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\XYZ_HomeWork\Actors\InterectiveCameraActor.cpp">
+      <Filter>Source\XYZ_HomeWork\Actors</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\XYZ_HomeWork\Actors\InterectiveCameraActor.h">
+      <Filter>Source\XYZ_HomeWork\Actors</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\XYZ_HomeWork\Actors\PlatformInvokator.cpp">
+      <Filter>Source\XYZ_HomeWork\Actors</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\XYZ_HomeWork\Actors\PlatformInvokator.h">
+      <Filter>Source\XYZ_HomeWork\Actors</Filter>
+    </ClInclude>
+    <Filter Include="Source\XYZ_HomeWork\Actors\Equipment">
+      <UniqueIdentifier>{C5DA7D59-8080-4AD8-A86A-F5DE33D84655}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\XYZ_HomeWork\Actors\Equipment\EquipableItem.cpp">
+      <Filter>Source\XYZ_HomeWork\Actors\Equipment</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\XYZ_HomeWork\Actors\Equipment\EquipableItem.h">
+      <Filter>Source\XYZ_HomeWork\Actors\Equipment</Filter>
+    </ClInclude>
+    <Filter Include="Source\XYZ_HomeWork\Actors\Equipment\Throwables">
+      <UniqueIdentifier>{78EB1EAA-D5FB-48D1-B4C2-AFE4FA482A59}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\XYZ_HomeWork\Actors\Equipment\Throwables\ThrowableItem.cpp">
+      <Filter>Source\XYZ_HomeWork\Actors\Equipment\Throwables</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\XYZ_HomeWork\Actors\Equipment\Throwables\ThrowableItem.h">
+      <Filter>Source\XYZ_HomeWork\Actors\Equipment\Throwables</Filter>
+    </ClInclude>
+    <Filter Include="Source\XYZ_HomeWork\Actors\Equipment\Weapons">
+      <UniqueIdentifier>{42EE588E-2201-4690-BAC6-3528B7AEBEA8}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\XYZ_HomeWork\Actors\Equipment\Weapons\MeleeWeaponItem.cpp">
+      <Filter>Source\XYZ_HomeWork\Actors\Equipment\Weapons</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\XYZ_HomeWork\Actors\Equipment\Weapons\MeleeWeaponItem.h">
+      <Filter>Source\XYZ_HomeWork\Actors\Equipment\Weapons</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\XYZ_HomeWork\Actors\Equipment\Weapons\RangeWeaponItem.cpp">
+      <Filter>Source\XYZ_HomeWork\Actors\Equipment\Weapons</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\XYZ_HomeWork\Actors\Equipment\Weapons\RangeWeaponItem.h">
+      <Filter>Source\XYZ_HomeWork\Actors\Equipment\Weapons</Filter>
+    </ClInclude>
+    <Filter Include="Source\XYZ_HomeWork\Actors\Interactive">
+      <UniqueIdentifier>{FCE34745-C13E-4B12-8048-407A52CAB598}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\XYZ_HomeWork\Actors\Interactive\InteractiveActor.cpp">
+      <Filter>Source\XYZ_HomeWork\Actors\Interactive</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\XYZ_HomeWork\Actors\Interactive\InteractiveActor.h">
+      <Filter>Source\XYZ_HomeWork\Actors\Interactive</Filter>
+    </ClInclude>
+    <Filter Include="Source\XYZ_HomeWork\Actors\Interactive\Environment">
+      <UniqueIdentifier>{E71213A0-5DE7-408B-B9A0-DDC4845AA29E}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\XYZ_HomeWork\Actors\Interactive\Environment\Ladder.cpp">
+      <Filter>Source\XYZ_HomeWork\Actors\Interactive\Environment</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\XYZ_HomeWork\Actors\Interactive\Environment\Ladder.h">
+      <Filter>Source\XYZ_HomeWork\Actors\Interactive\Environment</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\XYZ_HomeWork\Actors\Interactive\Environment\Zipline.cpp">
+      <Filter>Source\XYZ_HomeWork\Actors\Interactive\Environment</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\XYZ_HomeWork\Actors\Interactive\Environment\Zipline.h">
+      <Filter>Source\XYZ_HomeWork\Actors\Interactive\Environment</Filter>
+    </ClInclude>
+    <Filter Include="Source\XYZ_HomeWork\Actors\Navigation">
+      <UniqueIdentifier>{839AD55F-EFF0-424A-B02D-0278DAE87AB4}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\XYZ_HomeWork\Actors\Navigation\PatrollingPath.cpp">
+      <Filter>Source\XYZ_HomeWork\Actors\Navigation</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\XYZ_HomeWork\Actors\Navigation\PatrollingPath.h">
+      <Filter>Source\XYZ_HomeWork\Actors\Navigation</Filter>
+    </ClInclude>
+    <Filter Include="Source\XYZ_HomeWork\Actors\Projectiles">
+      <UniqueIdentifier>{63D81B12-5016-48FB-B5AF-A818C72D8756}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\XYZ_HomeWork\Actors\Projectiles\ExplosiveProjectile.cpp">
+      <Filter>Source\XYZ_HomeWork\Actors\Projectiles</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\XYZ_HomeWork\Actors\Projectiles\ExplosiveProjectile.h">
+      <Filter>Source\XYZ_HomeWork\Actors\Projectiles</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\XYZ_HomeWork\Actors\Projectiles\XYZProjectile.cpp">
+      <Filter>Source\XYZ_HomeWork\Actors\Projectiles</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\XYZ_HomeWork\Actors\Projectiles\XYZProjectile.h">
+      <Filter>Source\XYZ_HomeWork\Actors\Projectiles</Filter>
+    </ClInclude>
+    <Filter Include="Source\XYZ_HomeWork\AI">
+      <UniqueIdentifier>{F828ABF2-7109-481D-B6BE-D2E82C403DD7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\XYZ_HomeWork\AI\Characters">
+      <UniqueIdentifier>{A930EC1E-00D9-4081-B90F-90AB6AF5C276}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\XYZ_HomeWork\AI\Characters\Turret.cpp">
+      <Filter>Source\XYZ_HomeWork\AI\Characters</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\XYZ_HomeWork\AI\Characters\Turret.h">
+      <Filter>Source\XYZ_HomeWork\AI\Characters</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\XYZ_HomeWork\AI\Characters\XYZAICharacter.cpp">
+      <Filter>Source\XYZ_HomeWork\AI\Characters</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\XYZ_HomeWork\AI\Characters\XYZAICharacter.h">
+      <Filter>Source\XYZ_HomeWork\AI\Characters</Filter>
+    </ClInclude>
+    <Filter Include="Source\XYZ_HomeWork\AI\Controllers">
+      <UniqueIdentifier>{55358190-6D2C-4BA6-BFAA-8DC52D9FF57C}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\XYZ_HomeWork\AI\Controllers\AITurretController.cpp">
+      <Filter>Source\XYZ_HomeWork\AI\Controllers</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\XYZ_HomeWork\AI\Controllers\AITurretController.h">
+      <Filter>Source\XYZ_HomeWork\AI\Controllers</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\XYZ_HomeWork\AI\Controllers\XYZAICharacterController.cpp">
+      <Filter>Source\XYZ_HomeWork\AI\Controllers</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\XYZ_HomeWork\AI\Controllers\XYZAICharacterController.h">
+      <Filter>Source\XYZ_HomeWork\AI\Controllers</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\XYZ_HomeWork\AI\Controllers\XYZAIController.cpp">
+      <Filter>Source\XYZ_HomeWork\AI\Controllers</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\XYZ_HomeWork\AI\Controllers\XYZAIController.h">
+      <Filter>Source\XYZ_HomeWork\AI\Controllers</Filter>
+    </ClInclude>
+    <Filter Include="Source\XYZ_HomeWork\Characters">
+      <UniqueIdentifier>{17650571-1B3A-4B99-88D8-5960269E7537}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\XYZ_HomeWork\Characters\FPPlayerCharacter.cpp">
+      <Filter>Source\XYZ_HomeWork\Characters</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\XYZ_HomeWork\Characters\FPPlayerCharacter.h">
+      <Filter>Source\XYZ_HomeWork\Characters</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\XYZ_HomeWork\Characters\HomeWorkBasePawn.cpp">
+      <Filter>Source\XYZ_HomeWork\Characters</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\XYZ_HomeWork\Characters\HomeWorkBasePawn.h">
+      <Filter>Source\XYZ_HomeWork\Characters</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\XYZ_HomeWork\Characters\SpiderPawn.cpp">
+      <Filter>Source\XYZ_HomeWork\Characters</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\XYZ_HomeWork\Characters\SpiderPawn.h">
+      <Filter>Source\XYZ_HomeWork\Characters</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\XYZ_HomeWork\Characters\XYZBaseCharacter.cpp">
+      <Filter>Source\XYZ_HomeWork\Characters</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\XYZ_HomeWork\Characters\XYZBaseCharacter.h">
+      <Filter>Source\XYZ_HomeWork\Characters</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\XYZ_HomeWork\Characters\XYZPlayerCharacter.cpp">
+      <Filter>Source\XYZ_HomeWork\Characters</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\XYZ_HomeWork\Characters\XYZPlayerCharacter.h">
+      <Filter>Source\XYZ_HomeWork\Characters</Filter>
+    </ClInclude>
+    <Filter Include="Source\XYZ_HomeWork\Characters\Animations">
+      <UniqueIdentifier>{4C9FBD41-21EB-42EB-939A-02D4961FB15F}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\XYZ_HomeWork\Characters\Animations\FPPlayerAnimInstance.cpp">
+      <Filter>Source\XYZ_HomeWork\Characters\Animations</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\XYZ_HomeWork\Characters\Animations\FPPlayerAnimInstance.h">
+      <Filter>Source\XYZ_HomeWork\Characters\Animations</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\XYZ_HomeWork\Characters\Animations\SpiderPawnAnimInstance.cpp">
+      <Filter>Source\XYZ_HomeWork\Characters\Animations</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\XYZ_HomeWork\Characters\Animations\SpiderPawnAnimInstance.h">
+      <Filter>Source\XYZ_HomeWork\Characters\Animations</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\XYZ_HomeWork\Characters\Animations\XYZBasePawnAnimInstance.cpp">
+      <Filter>Source\XYZ_HomeWork\Characters\Animations</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\XYZ_HomeWork\Characters\Animations\XYZBasePawnAnimInstance.h">
+      <Filter>Source\XYZ_HomeWork\Characters\Animations</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\XYZ_HomeWork\Characters\Animations\XYZCharacterAnimInstance.cpp">
+      <Filter>Source\XYZ_HomeWork\Characters\Animations</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\XYZ_HomeWork\Characters\Animations\XYZCharacterAnimInstance.h">
+      <Filter>Source\XYZ_HomeWork\Characters\Animations</Filter>
+    </ClInclude>
+    <Filter Include="Source\XYZ_HomeWork\Characters\Animations\Notifies">
+      <UniqueIdentifier>{AC18F5A3-A5AF-4E6D-B09B-EB51A9D8F04B}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\XYZ_HomeWork\Characters\Animations\Notifies\AnimNotify_AtachEquippedItem.cpp">
+      <Filter>Source\XYZ_HomeWork\Characters\Animations\Notifies</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\XYZ_HomeWork\Characters\Animations\Notifies\AnimNotify_AtachEquippedItem.h">
+      <Filter>Source\XYZ_HomeWork\Characters\Animations\Notifies</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\XYZ_HomeWork\Characters\Animations\Notifies\AnimNotify_EnableRagDoll.cpp">
+      <Filter>Source\XYZ_HomeWork\Characters\Animations\Notifies</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\XYZ_HomeWork\Characters\Animations\Notifies\AnimNotify_EnableRagDoll.h">
+      <Filter>Source\XYZ_HomeWork\Characters\Animations\Notifies</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\XYZ_HomeWork\Characters\Animations\Notifies\AnimNotify_EndSlide.cpp">
+      <Filter>Source\XYZ_HomeWork\Characters\Animations\Notifies</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\XYZ_HomeWork\Characters\Animations\Notifies\AnimNotify_EndSlide.h">
+      <Filter>Source\XYZ_HomeWork\Characters\Animations\Notifies</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\XYZ_HomeWork\Characters\Animations\Notifies\AnimNotify_LaunchThrowable.cpp">
+      <Filter>Source\XYZ_HomeWork\Characters\Animations\Notifies</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\XYZ_HomeWork\Characters\Animations\Notifies\AnimNotify_LaunchThrowable.h">
+      <Filter>Source\XYZ_HomeWork\Characters\Animations\Notifies</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\XYZ_HomeWork\Characters\Animations\Notifies\AnimNotify_ReloadAmmo.cpp">
+      <Filter>Source\XYZ_HomeWork\Characters\Animations\Notifies</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\XYZ_HomeWork\Characters\Animations\Notifies\AnimNotify_ReloadAmmo.h">
+      <Filter>Source\XYZ_HomeWork\Characters\Animations\Notifies</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\XYZ_HomeWork\Characters\Animations\Notifies\AnimNotify_SetMeleeHitRegEnabled.cpp">
+      <Filter>Source\XYZ_HomeWork\Characters\Animations\Notifies</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\XYZ_HomeWork\Characters\Animations\Notifies\AnimNotify_SetMeleeHitRegEnabled.h">
+      <Filter>Source\XYZ_HomeWork\Characters\Animations\Notifies</Filter>
+    </ClInclude>
+    <Filter Include="Source\XYZ_HomeWork\Characters\Controllers">
+      <UniqueIdentifier>{3272CB96-CF2D-47D5-96A5-9F687BDF46BB}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\XYZ_HomeWork\Characters\Controllers\XYZPlayerController.cpp">
+      <Filter>Source\XYZ_HomeWork\Characters\Controllers</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\XYZ_HomeWork\Characters\Controllers\XYZPlayerController.h">
+      <Filter>Source\XYZ_HomeWork\Characters\Controllers</Filter>
+    </ClInclude>
+    <Filter Include="Source\XYZ_HomeWork\Components">
+      <UniqueIdentifier>{22146E94-D2A2-42D5-B08B-63AC31B3C33B}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\XYZ_HomeWork\Components\LedgeDetectorComponent.cpp">
+      <Filter>Source\XYZ_HomeWork\Components</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\XYZ_HomeWork\Components\LedgeDetectorComponent.h">
+      <Filter>Source\XYZ_HomeWork\Components</Filter>
+    </ClInclude>
+    <Filter Include="Source\XYZ_HomeWork\Components\Attributes">
+      <UniqueIdentifier>{E4818CE3-9784-4C4A-9B0C-335C17E44E7A}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\XYZ_HomeWork\Components\Attributes\CharacterAttributeComponent.cpp">
+      <Filter>Source\XYZ_HomeWork\Components\Attributes</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\XYZ_HomeWork\Components\Attributes\CharacterAttributeComponent.h">
+      <Filter>Source\XYZ_HomeWork\Components\Attributes</Filter>
+    </ClInclude>
+    <Filter Include="Source\XYZ_HomeWork\Components\CharacterComponents">
+      <UniqueIdentifier>{3E6F846E-CCD8-435D-A807-7F3957E0BAAC}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\XYZ_HomeWork\Components\CharacterComponents\AIPatrollingComponent.cpp">
+      <Filter>Source\XYZ_HomeWork\Components\CharacterComponents</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\XYZ_HomeWork\Components\CharacterComponents\AIPatrollingComponent.h">
+      <Filter>Source\XYZ_HomeWork\Components\CharacterComponents</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\XYZ_HomeWork\Components\CharacterComponents\CharacterEquipmentComponent.cpp">
+      <Filter>Source\XYZ_HomeWork\Components\CharacterComponents</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\XYZ_HomeWork\Components\CharacterComponents\CharacterEquipmentComponent.h">
+      <Filter>Source\XYZ_HomeWork\Components\CharacterComponents</Filter>
+    </ClInclude>
+    <Filter Include="Source\XYZ_HomeWork\Components\MovementComponents">
+      <UniqueIdentifier>{908AA84C-CE3C-479A-A9B3-C80A77A04E26}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\XYZ_HomeWork\Components\MovementComponents\GC_BasePawnMovementComponent.cpp">
+      <Filter>Source\XYZ_HomeWork\Components\MovementComponents</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\XYZ_HomeWork\Components\MovementComponents\GC_BasePawnMovementComponent.h">
+      <Filter>Source\XYZ_HomeWork\Components\MovementComponents</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\XYZ_HomeWork\Components\MovementComponents\XYZCharacterMovementComponent.cpp">
+      <Filter>Source\XYZ_HomeWork\Components\MovementComponents</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\XYZ_HomeWork\Components\MovementComponents\XYZCharacterMovementComponent.h">
+      <Filter>Source\XYZ_HomeWork\Components\MovementComponents</Filter>
+    </ClInclude>
+    <Filter Include="Source\XYZ_HomeWork\Components\Weapon">
+      <UniqueIdentifier>{6301BF07-9FE9-415F-B15B-27ED676856A7}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\XYZ_HomeWork\Components\Weapon\MeleeHitRegistrator.cpp">
+      <Filter>Source\XYZ_HomeWork\Components\Weapon</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\XYZ_HomeWork\Components\Weapon\MeleeHitRegistrator.h">
+      <Filter>Source\XYZ_HomeWork\Components\Weapon</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\XYZ_HomeWork\Components\Weapon\WeaponBarellComponent.cpp">
+      <Filter>Source\XYZ_HomeWork\Components\Weapon</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\XYZ_HomeWork\Components\Weapon\WeaponBarellComponent.h">
+      <Filter>Source\XYZ_HomeWork\Components\Weapon</Filter>
+    </ClInclude>
+    <Filter Include="Source\XYZ_HomeWork\Subsystems">
+      <UniqueIdentifier>{EAF2C0AE-A71D-4528-9429-4723F5B77F4D}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\XYZ_HomeWork\Subsystems\DebugSubsystem.cpp">
+      <Filter>Source\XYZ_HomeWork\Subsystems</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\XYZ_HomeWork\Subsystems\DebugSubsystem.h">
+      <Filter>Source\XYZ_HomeWork\Subsystems</Filter>
+    </ClInclude>
+    <Filter Include="Source\XYZ_HomeWork\UI">
+      <UniqueIdentifier>{DE176E8B-824B-420F-9808-2102CCDE2CAC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\XYZ_HomeWork\UI\Widget">
+      <UniqueIdentifier>{2A5712A2-AE8D-4E46-9605-84B824696475}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\XYZ_HomeWork\UI\Widget\AmmoWidget.cpp">
+      <Filter>Source\XYZ_HomeWork\UI\Widget</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\XYZ_HomeWork\UI\Widget\AmmoWidget.h">
+      <Filter>Source\XYZ_HomeWork\UI\Widget</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\XYZ_HomeWork\UI\Widget\CharacterAttributesWidget.cpp">
+      <Filter>Source\XYZ_HomeWork\UI\Widget</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\XYZ_HomeWork\UI\Widget\CharacterAttributesWidget.h">
+      <Filter>Source\XYZ_HomeWork\UI\Widget</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\XYZ_HomeWork\UI\Widget\PlayerHUDWidget.cpp">
+      <Filter>Source\XYZ_HomeWork\UI\Widget</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\XYZ_HomeWork\UI\Widget\PlayerHUDWidget.h">
+      <Filter>Source\XYZ_HomeWork\UI\Widget</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\XYZ_HomeWork\UI\Widget\ReticleWidget.cpp">
+      <Filter>Source\XYZ_HomeWork\UI\Widget</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\XYZ_HomeWork\UI\Widget\ReticleWidget.h">
+      <Filter>Source\XYZ_HomeWork\UI\Widget</Filter>
+    </ClInclude>
+    <Filter Include="Source\XYZ_HomeWork\Utils">
+      <UniqueIdentifier>{48F80D95-34FA-4754-862C-CC73A08F10DA}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\XYZ_HomeWork\Utils\XYZTraceUtils.cpp">
+      <Filter>Source\XYZ_HomeWork\Utils</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\XYZ_HomeWork\Utils\XYZTraceUtils.h">
+      <Filter>Source\XYZ_HomeWork\Utils</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
